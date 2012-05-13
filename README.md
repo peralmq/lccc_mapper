@@ -5,6 +5,12 @@ Locale, currency, and country code mapper
 
 Python library for looking up locale, currency, or country code based on one of the other.
 
+URLs
+----------------
+https://github.com/peal/lccc_mapper
+http://pypi.python.org/pypi/lccc_mapper
+
+
 Example
 ----------------
 
