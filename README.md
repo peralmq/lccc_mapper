@@ -1,7 +1,17 @@
-cccc_mapper
+lccc_mapper
 ===========
 
-Currency, country, and country code mapper
+Locale, currency, and country code mapper
 
-Python library for looking up currency, country, or country code based on one of the other.
-An convenient extension to pycountry (http://pypi.python.org/pypi/pycountry).
+Python library for looking up locale, currency, or country code based on one of the other.
+
+Example
+----------------
+
+    >>> import lccc_mapper
+    >>> lccc_mapper.currency_to_country_codes('USD')
+    ['AS', 'BQ', 'IO', 'EC', 'SV', 'GU', 'HT', 'MH', 'FM', 'MP', 'PW', 'PA', 'PR', 'TL', 'TC', 'US', 'UM', 'VG', 'VI']
+    >>> lccc_mapper.country_code_to_currencies('CH')
+    ['CHF', 'CHE', 'CHW']
+    >>> lccc_mapper.locale_to_currencies('en_GB')[0]
+    'GBP'
